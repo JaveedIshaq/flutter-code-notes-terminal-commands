@@ -29,3 +29,8 @@ flutter pub add --dev build_runner build_verify envied_generator flutter_launche
 ```
 flutter pub add firebase_analytics firebase_core firebase_crashlytics firebase_messaging firebase_performance
 ```
+
+## flutter command for clean pub get and build app bundle in one command
+```
+flutter clean && flutter pub get && flutter build appbundle --release --no-tree-shake-icons
+```
